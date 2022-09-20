@@ -34,7 +34,7 @@ function init(){
 	})
 	
 
-/*  	const loader3 = new THREE.GLTFLoader();
+ 	const loader3 = new THREE.GLTFLoader();
 	loader3.load("../IMG/Anciana/scene.gltf", function(gltf){
 		car = gltf.scene.children[0];
 		car.scale.set(0.008, 0.008, 0.008);
@@ -42,16 +42,16 @@ function init(){
 		renderer.render(scene, camera);
 		car.position.x = 2
 		car.position.y = -5
-	}) */
+	}) 
 
- 	const loader4 = new THREE.GLTFLoader();
+/*  	const loader4 = new THREE.GLTFLoader();
 	loader4.load("../IMG/Anciana1/scene.gltf", function(gltf){
 		car = gltf.scene.children[0];
 		car.scale.set(0.8, 0.8, 0.8);
 		scene.add(gltf.scene)
 		renderer.render(scene, camera);
 		car.position.x = 2
-	})
+	}) */
 
 	const loader1 = new THREE.GLTFLoader();
 	loader1.load("../IMG/SETH1/scene.gltf", function(gltf){
